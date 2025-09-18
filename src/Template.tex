@@ -63,34 +63,10 @@
 %================================================
 \begin{document}
 
-% --- 标题页 ---
-\begin{titlepage}
-    \centering
-    \vspace*{2cm}
-    
-    {\Huge \bfseries [年份]年全国大学生电子设计竞赛} % <-- 修改年份
-    
-    \vspace{2.5cm}
-    
-    {\huge \bfseries [题目编号] 题：[题目名称]} % <-- 修改题号和题目
-    
-    \vspace{1.5cm}
-    
-    {\Large \bfseries 设 计 报 告}
-    
-    \vspace{2cm}
-
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{../pic/电赛logo.png}
-    \end{figure}
-
-    \vspace{6.5cm}
-
-    
-    {\large \today}
-    
-\end{titlepage}
+\begin{center}
+    \huge \bfseries [题号]：[题目]
+    \vspace{1cm}
+\end{center}
 
 % --- 摘要 ---
 % \begin{abstract}
@@ -278,33 +254,5 @@
         \item \textbf{[误差/瓶颈来源二]：} [详细描述该问题及其对系统的影响]。改进方法：[提出具体的改进措施或优化方向]。
         \item \textbf{[误差/瓶颈来源三]：} [详细描述该问题及其对系统的影响]。改进方法：[提出具体的改进措施或优化方向]。
     \end{enumerate}
-
-% --- 参考文献 ---
-\begin{thebibliography}{99}
-    \bibitem{ref1} [作者]. [文献标题][J/M]. [期刊/出版社], [年份].
-    \bibitem{ref2} [作者]. [书籍名称][M]. [出版社], [年份].
-    % 在这里列出您参考过的文献、书籍、技术手册等
-\end{thebibliography}
-
-% --- 附录 ---
-\appendix
-\section{主要元器件清单}
-\begin{table}[H]
-    \centering
-    \caption{硬件BOM表}
-    \label{tab:bom}
-    \begin{tabular}{lll}
-        \toprule
-        元器件名称 & 型号 & 数量 \\
-        \midrule
-        微控制器 & [例如: TI MSPM0G3507] & 1 \\
-        传感器模块 & [例如: MPU6050] & 1 \\
-        驱动芯片 & [例如: DRV8701] & 1 \\
-        ... & ... & ... \\ % <-- 替换为您的元器件
-        \bottomrule
-    \end{tabular}
-\end{table}
-
-
 
 \end{document}
